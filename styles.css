@@ -1,0 +1,179 @@
+@media screen and (max-width: 425px) {
+    body{
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 425px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: hsl(30, 54%, 90%);
+        padding: 50px;
+    }
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: YoungSerif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.container{
+    background-color: white; border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 auto;
+    font-family: Outfit;
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header h1{
+    font-family: YoungSerif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header p{
+    width: 99%;
+    font-weight: 400;
+}
+
+.first-section{
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(332, 51%, 32%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 30px auto 0 auto;
+    box-sizing: border-box;
+}
+
+.first-section h4{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.first-list li{
+    padding: 10px 0 10px 0;
+}
+
+.first-list{
+    margin-bottom: 10px;
+}
+
+.first-list p{
+    padding: 0; margin: 0;
+    color: black;
+}
+
+.second-section{
+    color: hsl(14, 45%, 36%);
+    margin: 30px auto;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.second-list li{
+    margin: 10px auto;
+}
+
+.second-list p{
+    color: black;
+    margin-left: 20px;
+}
+.second-section h2{
+    font-size: 1.5em;
+    margin-left: -15px;
+    font-family: YoungSerif;
+    font-weight: 400;
+}
+
+hr{
+    width: 100%;
+}
+
+.third-section{
+    color: hsl(14, 45%, 36%);
+    margin: 30px auto;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.third-list li{
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.third-list p{
+    color: black;
+    font-weight: normal;
+}
+.third-section h2{
+    font-size: 1.5em;
+    margin-left: -15px;
+    margin-bottom: 20px;
+    font-family: YoungSerif;
+    font-weight: 400;
+}
+
+.fourth-section{
+    color: hsl(14, 45%, 36%);
+    margin: 30px auto;
+    width: 100%;
+}
+
+.fourth-section h2{
+    margin-top: 45px;
+    font-family: YoungSerif;
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.fourth-section p{
+    color: black;
+    margin-bottom: 20px;
+}
+
+table{
+    border-collapse: separate; border-spacing: 0;
+    width: 100%;
+}
+
+.row .dataone{
+    color: black;
+    padding: 10px 20px 15px 30px;border-bottom: 1px solid lightgray; margin: 0;
+}
+
+.row .datatwo{
+    border-bottom: 1px solid lightgray; font-weight: bold;
+}
+
+.row .hmmtwo{
+    border: none;
+    font-weight: bold;
+}
+
+.row .hmmone{
+    border: none;
+}
